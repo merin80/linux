@@ -618,3 +618,8 @@
 	pinctrl-0 = <&pinctrl_audmux>;
 	status = "okay";
 };
+
+&hdmi {
+	ddc-i2c-bus = <&i2c2>;
+	status = "okay";
+};
